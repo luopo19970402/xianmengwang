@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    derver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.105.180.149:3306/xianmengwang?serverTimezone=Asia/Shanghai
+    username: root
+    password: 518815
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+xianmengwang:
+  redis:
+    host: 47.105.180.149
+    port: 6379
+  aes:
+    passkey: dP0ykNOnMdKFaXCIOnXckg==
